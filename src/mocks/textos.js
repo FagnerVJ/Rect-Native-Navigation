@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable quotes */
 const textos = {
     boasVindas: "Olá Natalia",
     legenda: "Encontre os produtores mais próximos a você!",

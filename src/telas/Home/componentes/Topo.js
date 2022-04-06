@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
@@ -12,7 +13,7 @@ export default function Topo({ melhoresProdutores }) {
       <Image source={logo} style={estilos.imagem} />
       <Text style={estilos.boasVindas}>{melhoresProdutores ? "" : boasVindas}</Text>
       <Text style={estilos.legenda}>{melhoresProdutores ? legendaMelhoresProdutores : legenda}</Text>
-    </View>    
+    </View>
   </>
 }
 

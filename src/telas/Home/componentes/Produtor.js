@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useMemo } from 'react';
 import { View, TouchableOpacity, Text, Image, StyleSheet } from 'react-native';
 
@@ -9,11 +10,11 @@ const distanciaEmMetros = (distancia) => {
 
 export default function Produtor({ nome, imagem, distancia, estrelas, aoPressionar }) {
     const distanciaTexto = useMemo(
-        () => distanciaEmMetros(distancia), 
+        () => distanciaEmMetros(distancia),
         [distancia]
     );
 
-    return <TouchableOpacity 
+    return <TouchableOpacity
             style={estilos.cartao}
             onPress={aoPressionar}
         >
@@ -21,7 +22,7 @@ export default function Produtor({ nome, imagem, distancia, estrelas, aoPression
         <View style={estilos.informacoes}>
             <View>
                 <Text style={estilos.nome}>{ nome }</Text>
-                <Estrelas 
+                <Estrelas
                     quantidade={estrelas}
                 />
             </View>

@@ -41,3 +41,6 @@ Para instalar o React Native e o ambiente nativo na sua máquina siga os passos 
 ## 📚 Mais informações do curso
 
 Aguardando link
+
+Inicia projeto npm start run
+Iniciando android npm run android

@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable comma-dangle */
+/* eslint-disable quotes */
 import green from '../assets/produtores/green.png';
 import salad from '../assets/produtores/salad.png';
 import jennyJack from '../assets/produtores/jenny-jack.png';
@@ -31,7 +34,7 @@ const produtores = {
             nome: "Brócolis e Pepino",
             descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
             preco: "R$ 40,00",
-            imagem: pepino
+            imagem: pepino,
           },
           itens: [
             {

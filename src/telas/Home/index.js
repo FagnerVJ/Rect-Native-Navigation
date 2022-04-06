@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { FlatList, Text, StyleSheet } from 'react-native';
 
@@ -15,7 +16,7 @@ export default function Produtores({ melhoresProdutores }) {
       <Topo melhoresProdutores={melhoresProdutores} />
       <Text style={estilos.titulo}>{tituloProdutores}</Text>
     </>
-  }
+  };
 
   return <FlatList
     data={lista}
@@ -39,4 +40,4 @@ const estilos = StyleSheet.create({
     fontWeight: 'bold',
     color: '#464646',
   }
-})
+});
