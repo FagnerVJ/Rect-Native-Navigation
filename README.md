@@ -44,3 +44,12 @@ Aguardando link
 
 Inicia projeto npm start run
 Iniciando android npm run android
+
+Como instalar o e usar o pacote @react-navigation/native; tipo bottom-tab-navigator
+https://cursos.alura.com.br/course/react-native-criando-menu-navegando-telas/task/102824
+https://reactnavigation.org/docs/bottom-tab-navigator/
+
+Para saber mais: outros tipos de navegação 
+https://cursos.alura.com.br/course/react-native-criando-menu-navegando-telas/task/102825
+
+https://reactnavigation.org/docs/hello-react-navigation/

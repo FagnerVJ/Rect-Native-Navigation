@@ -1,4 +1,6 @@
 /* eslint-disable prettier/prettier */
+//https://cursos.alura.com.br/course/react-native-criando-menu-navegando-telas/task/102824
+
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
